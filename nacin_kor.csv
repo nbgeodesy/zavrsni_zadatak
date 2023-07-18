@@ -1,0 +1,216 @@
+id_nacin_kor,naziv
+1,Wiva 1. klase
+2,Wiva 2. klase
+3,Wiva 3. klase
+4,Wiva 4. klase
+5,Wiva 5. klase
+6,Wiva 6. klase
+7,Wiva 7. klase
+8,Wiva 8. klase
+9,Vrt 1. klase
+10,Vrt 2. klase
+11,Vrt 3. klase
+12,Vrt 4. klase
+13,Vrt 5. klase
+14,Vrt 6. klase
+15,Vrt 7. klase
+16,Vrt 8. klase
+17,Vo}wak 1. klase
+18,Vo}wak 2. klase
+19,Vo}wak 3. klase
+20,Vo}wak 4. klase
+21,Vo}wak 5. klase
+22,Vo}wak 6. klase
+23,Vo}wak 7. klase
+24,Vo}wak 8. klase
+25,Vinograd 1. klase
+26,Vinograd 2. klase
+27,Vinograd 3. klase
+28,Vinograd 4. klase
+29,Vinograd 5. klase
+30,Vinograd 6. klase
+31,Vinograd 7. klase
+32,Vinograd 8. klase
+33,Livada 1. klase
+34,Livada 2. klase
+35,Livada 3. klase
+36,Livada 4. klase
+37,Livada 5. klase
+38,Livada 6. klase
+39,Livada 7. klase
+40,Livada 8. klase
+41,Pa{wak 1. klase
+42,Pa{wak 2. klase
+43,Pa{wak 3. klase
+44,Pa{wak 4. klase
+45,Pa{wak 5. klase
+46,Pa{wak 6. klase
+47,Pa{wak 7. klase
+48,Pa{wak 8. klase
+49,[uma 1. klase
+50,[uma 2. klase
+51,[uma 3. klase
+52,[uma 4. klase
+53,[uma 5. klase
+54,[uma 6. klase
+55,[uma 7. klase
+56,[uma 8. klase
+57,Trstik-mo~vara 1. klase
+58,Trstik-mo~vara 2. klase
+59,Trstik-mo~vara 3. klase
+60,Trstik-mo~vara 4. klase
+61,Trstik-mo~vara 5. klase
+62,Trstik-mo~vara 6. klase
+63,Trstik-mo~vara 7. klase
+64,Trstik-mo~vara 8. klase
+65,Izvor
+66,^esma
+67,"Bunar, ~atrwa"
+68,Vrelo
+69,Gejzir
+70,Furmarola
+71,Izvor mineralne vode
+72,Izvor termalne vode
+73,Izvor termalne mineralne vode
+74,Rijeka
+75,Potok
+76,Prirodno jezero
+77,Vje{ta~ko jezero
+78,Bara
+79,Pojilo
+80,More
+81,Vododerina-jaruga
+82,"Litica, kawon"
+83,"Bezdan, pe}ina"
+84,Golet
+85,"Kr{, kamewar"
+86,Klizi{te
+87,Sprud
+88,Suvo rije~no korito
+89,Erozivni materijalni rov
+90,"[anac, rov"
+91,Erozivni materijal
+92,@ivi pijesak
+93,Deponija jalovine
+94,Pepeli{te
+95,Naba~aj kamena
+96,Napu{teni bunker
+97,Ostalo neplodno zemqi{te
+98,Jaz
+99,Majdan
+100,Brana
+101,Kanal
+102,Objekat spoqweg vodovoda
+103,Objekat spoqne kanalizacije
+104,Vodoprivredni objekat
+105,Ribwak
+106,Nasip
+107,Vodenica-mlin
+108,Nekategorisani put
+109,Ulica
+110,Trg
+111,Parking
+112,@eqezni~ka pruga
+113,Objekti za plovidbu
+114,Aerodrom
+115,Staza u nasequ
+116,Elektroenergetski objekat
+117,Objekat telekomunikacija
+118,Objekat naftovoda
+119,Objekat gasovoda
+120,Objekat toplovoda i parovoda
+121,Cjevovod
+122,Povr{inski kop
+123,Pijaca
+124,Skladi{te
+125,Sajmi{te
+126,Grobqe
+127,Va{ari{te
+128,Deponija sme}a
+129,Sto~no grobqe
+130,Spomenik kulture
+131,Botani~ka ba{ta
+132,Zoolo{ki vrt
+133,Bazen
+134,Streli{te
+135,Sportski centar
+136,Hipodrom
+137,Kupali{te
+138,Park
+139,Kamp
+140,Sportski tereni
+141,Stambeni objekat
+142,Ku}a za odmor i oporavak
+143,Stambeno-poslovni objekat
+144,Poslovni objekat u privredi
+145,Benzinska pumpa
+146,Autobuska stanica
+147,@eqezni~ka stanica
+148,Poslovni objekat u vanprivredi
+149,Objekat obrazovawa
+150,"Objekat kulture, umjetnosti i informisawa"
+151,Objekat zdravstvene djelatnosti
+152,Objekat socijalne za{tite djece
+153,Objekat fizi~ke kulture i rekreacije
+154,Objekat jedinice lokalne samouprave i javne organizacije
+155,Objekat ministarstva odbrane
+156,Objekat diplomatskih predstavni{tava
+157,Objekat vjerske zajednice
+158,Objekat u izgradwi
+159,Temeq
+160,Ru{evina
+161,Podzemni objekat
+162,Pomo}ni objekat
+163,Qetna kuhiwa
+164,Gara`a
+165,[tala
+166,Ostali objekti
+167,Pomo}ni objekat u privredi
+168,Pomo}ni objekat u vanprivredi
+169,Dvori{te
+170,Dvori{te stambeno-poslovnog objekat
+171,Zemqi{te uz privredni objekat
+172,Zemqi{te uz vanprivredni objekat
+173,Zemqi{te uz objekat obrazovawa
+174,Zemqi{te uz objekat kulture i umjetnosti
+175,Zemqi{te uz objekat zdravstvene djelatnosti
+176,Zemqi{te uz objekat socijalne za{tite djece
+177,Zemqi{te uz objekat fizi~ke kulture i rekreacije
+178,Zemqi{te uz objekat jedinice lokalne samouprave i javne organizacije
+179,Zemqi{te uz objekat ministarstva odbrane
+180,Zemqi{te uz objekat diplomatskih predstavni{tava
+181,Zemqi{te uz objekat vjerske zajednice
+182,Gradili{te
+183,Auto-put
+184,Magistralni put
+185,Brzi put
+186,Regionalni put
+187,Lokalni put
+188,Tramvajska pruga
+189,@i~ara-uspiwa~a
+190,Garsowera
+191,Garsowera
+192,Jednosoban stan
+193,Jednosoban stan
+194,Dvosoban stan
+195,Dvosoban stan
+196,Trosoban stan
+197,Trosoban stan
+198,^etvorosoban stan
+199,^etvorosoban stan
+200,Petosoban stan
+201,Petosoban stan
+202,Stan ve}i od petosobnog
+203,Stan ve}i od petosobnog
+204,Poslovni prostor u privredi
+205,Poslovni prostor u privredi
+206,Poslovni prostor u vanprivredi
+207,Poslovni prostor u vanprivredi
+208,Pomo}na prostorija
+209,Pomo}na prostorija
+210,Pomo}ni poslovni prostor u privredi
+211,Pomo}ni poslovni prostor u privredi
+1,Wiva 1. klase
+212,Pomo}ni poslovni prostor u vanprivredi
+213,Pomo}ni poslovni prostor u vanprivredi
+214,Gara`a u objektu

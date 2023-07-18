@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{%block title%} Pocetna{%endblock%}
+
+{% block content %}
+<body style="background-image: url('static/pozadina9.jpg');">
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <div align="center">
+        <h1 style="color:white; background-color:#008080; width:fit-content; border-radius: 12px;" > Katastarska evidencija Republike Srpske </h1>
+    </div>
+    <div align="center">
+        <h2 style="color:white;background-color:#008080; width:fit-content; border-radius: 12px;"> Dobro došli! </h2>
+    </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <div align ="center"> 
+        <li class="btn btn-secondary btn-lg">
+            <a class="nav-link" href="/kat_operat">Katastarski operat</a>
+        </li>
+        <li class="btn btn-secondary btn-lg disabled">
+            <a class="nav-link" href="/kat_operat">Katastarski plan</a>
+        </li>
+    </div>
+</body>
+{% endblock  %}
