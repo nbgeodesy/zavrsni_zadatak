@@ -1,0 +1,56 @@
+{%extends 'base.html'%}
+
+{%block title%} Katastarski operat {%endblock%}
+{% block content %}
+<body style="background-image: url('static/pozadina9.jpg')">
+  <br></br>
+
+  <div class="container-lg mx-auto rounded-5">
+
+  <br>
+
+  <div class="container-lg mb-3 mx-auto rounded-5" style="width: 1000px; background-color: #D3D3D3; color: black; border: 5px ridge #808080  ">
+    <h1 align="center">Napredna pretraga</h1>
+  </div>
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="container-lg mb-3 mx-auto" style="width: 1033px;">
+    <div align ="center"> 
+      <li class="btn btn-secondary btn-lg" style = "color: black; background-color: #D3D3D3; width: 200px;">
+          <a class="nav-link" href="/pretrazi_parcele/">Parcele</a>
+      </li>
+
+      <li class="btn btn-secondary btn-lg" style=" color: black; width: 200px; background-color: #D3D3D3; margin-left: 50px; margin-right: 50px;">
+          <a class="nav-link" href="/pretrazi_pl/">PL/LN</a>
+      </li>
+
+      <li class="btn btn-secondary btn-lg" style = "color: black; width: 200px; background-color: #D3D3D3;">
+        <a class="nav-link" href="/pretrazi_posjednika/">Nosioci prava</a>
+    </li>
+  </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  {% with messages = get_flashed_messages() %}
+  {% if messages %}
+      {% for message in messages %}
+       <div align = "center" class="alert alert-secondary; rounded-4" role="alert"  style="background-color: #a7c5f9; width:300px; height: 55px; margin:auto;" >
+         {{ message }}
+         <button type="button" class="btn-close"  data-bs-dismiss="alert" aria-label="Close"></button>
+         
+       </div>
+      {% endfor %}
+  {% endif %}
+  {% endwith %}
+</body>
+{% endblock  %}
+
+

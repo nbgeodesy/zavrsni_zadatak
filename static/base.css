@@ -1,0 +1,4 @@
+/* Style the active class (and buttons on mouse-over) */
+.active, .nav-item:hover {
+  color: white;
+}

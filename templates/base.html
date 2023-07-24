@@ -20,31 +20,31 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index">Početna</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/kat_operat">Katastarski operat</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Katastarski plan</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Napredna pretraga
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Parcele</a></li>
-                <li><a class="dropdown-item" href="#">PL/LN</a></li>
-                <li><a class="dropdown-item" href="#">Nosioci prava</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
-          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index">Početna</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/kat">Katastarski operat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Katastarski plan</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Napredna pretraga
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/pretrazi_parcele/">Parcele</a></li>
+                  <li><a class="dropdown-item" href="/pretrazi_pl/">PL/LN</a></li>
+                  <li><a class="dropdown-item" href="/pretrazi_posjednika/">Nosioci prava</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+            </ul>
+          </div> 
+        
 
             <p style = "color: white; float: right;">
               {%if session['username']%} 
@@ -59,7 +59,12 @@
         </div>
       </div>
     </nav>
-    {%block content%} {%endblock%}
+    {%block content%} 
+    <body style="background-image: url('pozadina9.jpg');">
+    
+    </body>
+    
+    {%endblock%}
   </body>
 
 

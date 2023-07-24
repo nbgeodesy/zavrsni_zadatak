@@ -3,27 +3,33 @@
 {%block title%} Pocetna{%endblock%}
 
 {% block content %}
-<body style="background-image: url('static/pozadina9.jpg');">
+<body style="background-image: url('static/pozadina9.jpg')">
+
     <br></br>
     <br></br>
     <br></br>
-    <br></br>
-    <div align="center">
-        <h1 style="color:white; background-color:#008080; width:fit-content; border-radius: 12px;" > Katastarska evidencija Republike Srpske </h1>
+
+    <div class="container-lg mb-3 mx-auto rounded-5" style="width: 1000px; background-color: #D3D3D3; color: black; border: 6px ridge #808080  ">
+        <h1 align="center">Katastarska evidencija Republike Srpske</h1>
+        <h2 align="center">Dobro došli!</h2>
     </div>
-    <div align="center">
-        <h2 style="color:white;background-color:#008080; width:fit-content; border-radius: 12px;"> Dobro došli! </h2>
-    </div>
+
     <br></br>
     <br></br>
     <br></br>
-    <div align ="center"> 
-        <li class="btn btn-secondary btn-lg">
-            <a class="nav-link" href="/kat_operat">Katastarski operat</a>
-        </li>
-        <li class="btn btn-secondary btn-lg disabled">
-            <a class="nav-link" href="/kat_operat">Katastarski plan</a>
-        </li>
+
+    <div class="container-lg mb-3 mx-auto" style="width: 1033px;">
+        <div align ="center"> 
+            <li class="btn btn-secondary btn-lg" style = "color: black; background-color: #D3D3D3; width: 200px;">
+                <a class="nav-link" href="/kat">Katastarski operat</a>
+            </li>
+            <li class="btn btn-secondary btn-lg" style = "color: black; background-color: #D3D3D3; width: 200px; margin-left: 50px; margin-right: 50px;">
+                <a class="nav-link" href="/napredna" style="margin-left: 10px;">Napredna pretraga</a>
+            </li>
+            <li class="btn btn-secondary btn-lg disabled" style = "color: black; background-color: #D3D3D3; width: 200px;">
+                <a class="nav-link" href="">Katastarski plan</a>
+            </li>
+        </div>
     </div>
 </body>
 {% endblock  %}

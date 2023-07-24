@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{%block title%}Dodaj posjednika{%endblock%}</title>
+    <title>{%block title%}Azuriraj posjednika{%endblock%}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -51,8 +51,8 @@
 
     <br></br>
 
-    <div class="container-lg mb-1 rounded-5" style="width: 700px;color: black; border: 2px ridge #808080; background-color: #eaeded;  ">
-      <h2 align="center">Dodaj posjednika</h2>
+    <div class="container-lg mb-1 rounded-5" style="width: 700px;color: black; border: 2px ridge #808080; background-color: #eaeded;">
+      <h2 align="center">Izbriši posjednika</h2>
     </div>
 
     <br>
@@ -64,36 +64,19 @@
         <div class="row d-flex justify-content-center align-items-center h-100">
           <div class="col-12 col-md-9 col-lg-7 col-xl-6">
             <div class="card" style="border-radius: 15px; background-color: #f2f3f4;">
-              <div class="card-body p-5">
-
-                  <h3 class="text-center">Unesi podatke o posjedniku</h3>
+              <div class="card-body p-5">  
                   <br>
-                
-                  <form action="/dodaj_posjednika/" method="POST">
+                  <form action="/izbrisi_posjednika/" method="POST">
                     <div class="form-outline mb-4">
-                      <input type="number" name="pl" id='pl' class="form-control form-control-lg" placeholder="PL/LN"/>
-                    </div>
-                    <div class="form-outline mb-4">
+                      <h3 class="text-center">Unesi matični broj posjednika:</h3>
                       <input type="number" name="jmbg" id='jmbg' class="form-control form-control-lg" placeholder="JMBG"/>
-                    </div>
-                    <div class="form-outline mb-4">
-                      <input type="text" name="ime" id='ime' class="form-control form-control-lg" placeholder="Ime"/>
-                    </div>
-                    <div class="form-outline mb-4">
-                      <input type="text" name="prezime" id='prezime' class="form-control form-control-lg" placeholder="Prezime"/>
-                    </div>
-                    <div class="form-outline mb-4">
-                      <input type="text" name="vrstaprava" id='vrstaprava' class="form-control form-control-lg" placeholder="Vrsta prava susvojina(0)/zajednicka svojina(1)"/>
-                    </div>
-                    <div class="form-outline mb-4">
-                      <input type="text" name="obimprava" id='obimprava' class="form-control form-control-lg" placeholder="Obim prava 1/1"/>
                     </div>
                   
                     <br>
                     <br>
 
                     <div class="d-flex justify-content-center">
-                      <button type="submit" style = "background-color:#008080;"class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Unesi podatke</button>
+                      <button type="submit" style = "background-color:#008080;"class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Izbriši posjednika!</button>
                     </div>
                   
 

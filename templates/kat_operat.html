@@ -2,68 +2,96 @@
 
 {%block title%} Katastarski operat {%endblock%}
 {% block content %}
+<body style="background-image: url('static/pozadina9.jpg')">
+  <br></br>
 
-<br></br>
-<div class="container-lg mx-auto rounded-5">
-
-<div class="container-lg mb-3 mx-auto rounded-5" style="width: 1200px; background-color: #D3D3D3; color: black; border: 7px ridge #808080  ">
-  <h1 align="center">KATASTARSKI OPERAT</h1>
-</div>
-
-
-
-<br>
-<br>
-
-<div class="container-lg mb-3 mx-auto" style="width: 1033px;">
-  <div class="dropdown-center d-inline-block">
-    <button class="btn btn-secondary dropdown-toggle rounded-4" style="width: 333px;  font-size : 20px; color: black; background-color: #D3D3D3;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Dodaj
-    </button>
-    <ul class="dropdown-menu rounded-3" style="background-color: #D3D3D3;  width: 250px;"> 
-      <li><a class="dropdown-item rounded-3" href="dodaj_pl">Posjednika</a></li>
-      <li><a class="dropdown-item rounded-3" href="dodaj_parcele">Parcelu</a></li>
-    </ul>
-  </div>
-
-  <div class="dropdown-center d-inline-block">
-    <button class="btn btn-secondary dropdown-toggle rounded-4" style="width: 333px;  font-size : 20px; color: black; background-color: #D3D3D3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Izmjeni
-    </button>
-    <ul class="dropdown-menu rounded-3" style="background-color: #D3D3D3;width: 250px;">
-      <li><a class="dropdown-item rounded-3" href="#">Posjednika</a></li>
-      <li><a class="dropdown-item rounded-3" href="#">Parcelu</a></li>
-    </ul>
-  </div>
-
-  <div class="dropdown-center d-inline-block">
-    <button class="btn btn-secondary dropdown-toggle rounded-4" style="width: 333px;  font-size : 20px; color: black; background-color: #D3D3D3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Izbrisi
-    </button>
-    <ul class="dropdown-menu rounded-3" style="background-color: #D3D3D3;width: 250px;">
-      <li><a class="dropdown-item rounded-3" href="#">Posjednika</a></li>
-      <li><a class="dropdown-item rounded-3" href="#">Parcelu</a></li>
-    </ul>
-  </div>
-</div>
+  <div class="container-lg mx-auto rounded-5">
   
 
-<br>
-<br>
-<br>
-<br>
-<!-- Large button groups (default and split) -->
-
-<div class="container-lg mt-3 border border-dark rounded-5" style="width: 1000px; background-color: #D3D3D3 ">
-  <h3 align="center">IZVOZ PODATAKA</h3>
-</div>
-<br>
-<div class="container-lg mt-2" style= "width: 650px;">
-     <button type="button" class="btn btn-primary mt-auto mb-auto" style="width: 300px; color: black; background-color: #D3D3D3; border-color:#D3D3D3; font-size: 20px ">Izvoz parcela</button>
-     <button type="button" class="btn btn-primary mt-auto mb-auto" style="width: 300px; color: black; background-color: #D3D3D3; border-color:#D3D3D3; font-size: 20px">Izvoz posjednika</button>
-</div>
+  <div class="container-lg mb-3 mx-auto rounded-5" style="width: 1200px; background-color: #D3D3D3; color: black; border: 5px ridge #808080  ">
+    <h1 align="center">KATASTARSKI OPERAT</h1>
+  </div>
 
 
+
+  <br>
+  <br>
+
+  <div class="container-lg mb-3 mx-auto" style="width: 1033px;">
+    <div class="dropdown-center d-inline-block">
+      <button class="btn btn-secondary dropdown-toggle rounded-4" style="width: 333px;  font-size : 20px; color: black; background-color: #D3D3D3;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Dodaj
+      </button>
+      <ul class="dropdown-menu rounded-3" style="background-color: #D3D3D3;  width: 250px;">
+        <li><a class="dropdown-item rounded-3" href="/dodaj_pl/">PL/LN</a></li>
+        <li><a class="dropdown-item rounded-3" href="/dodaj_posjednika/">Posjednika</a></li>
+        <li><a class="dropdown-item rounded-3" href="/dodaj_parcele/">Parcelu</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown-center d-inline-block">
+      <button class="btn btn-secondary dropdown-toggle rounded-4" style="width: 333px;  font-size : 20px; color: black; background-color: #D3D3D3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Ažuriraj
+      </button>
+      <ul class="dropdown-menu rounded-3" style="background-color: #D3D3D3;width: 250px;">
+        <li><a class="dropdown-item rounded-3" href="/azuriraj_posjednika/">Posjednika</a></li>
+        <li><a class="dropdown-item rounded-3" href="/azuriraj_parcele/">Parcelu</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown-center d-inline-block">
+      <button class="btn btn-secondary dropdown-toggle rounded-4" style="width: 333px;  font-size : 20px; color: black; background-color: #D3D3D3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Izbriši
+      </button>
+      <ul class="dropdown-menu rounded-3" style="background-color: #D3D3D3;width: 250px;">
+        <li><a class="dropdown-item rounded-3 disabled" href="/izbrisi_pl/">PL/LN</a></li>
+        <li><a class="dropdown-item rounded-3" href="/izbrisi_posjednika/">Posjednika</a></li>
+        <li><a class="dropdown-item rounded-3" href="/izbrisi_parcele/">Parcelu</a></li>
+      </ul>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- Large button groups (default and split) -->
+
+  <div class="container-lg mb-3 mx-auto rounded-5" style="width: 1000px; background-color: #D3D3D3; color: black; border: 5px ridge #808080  ">
+    <h3 align="center">IZVOZ PODATAKA</h3>
+  </div>
+  <br>
+  
+   
+  <div class="container-lg mb-3 mx-auto" align = "center">
+
+      <li style="list-style: none;">
+      <form action="/eksport_parcela">
+         <button type="submit"  href = "/eksport_parcela" class="btn btn-primary mt-auto mb-auto rounded-4" style="width: 300px; color: black; background-color: #D3D3D3; border-color:#D3D3D3; font-size: 20px "> Izvoz parcela</button>
+      </form>
+      </li>
+      <br>
+      <li style="list-style: none;">
+      <form action="/eksport_posjednika">
+         <button type="submit"  href = "/eksport_posjednika" class="btn btn-primary mt-auto mb-auto rounded-4" style="width: 300px; color: black; background-color: #D3D3D3; border-color:#D3D3D3; font-size: 20px "> Izvoz posjednika</button>
+        </form> 
+      </li>
+
+  </div> 
+
+
+
+  {% with messages = get_flashed_messages() %}
+  {% if messages %}
+      {% for message in messages %}
+       <div align = "center" class="alert alert-secondary; rounded-4" role="alert"  style="background-color: #a7c5f9; width:300px; height: 55px; margin:auto;" >
+         {{ message }}
+         <button type="button" class="btn-close"  data-bs-dismiss="alert" aria-label="Close"></button>
+         
+       </div>
+      {% endfor %}
+  {% endif %}
+  {% endwith %}
+</body>
 {% endblock  %}
 
 
